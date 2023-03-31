@@ -68,8 +68,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/smith/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
+    vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8697_haptic.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_osc_rtp_24K_5s.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp.bin \
+    vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8697_rtp.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Attentive.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Attentive.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Bird_Loop.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Bird_Loop.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Crazy_Dream.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Crazy_Dream.bin \
@@ -102,9 +104,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/firmware/mot_bu63169.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_bu63169.coeff \
     vendor/motorola/smith/proprietary/vendor/firmware/mot_bu63169.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_bu63169.prog \
     vendor/motorola/smith/proprietary/vendor/firmware/samsung-boe-se77c-19092701-17800202-smith.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-boe-se77c-19092701-17800202-smith.bin \
+    vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/samsung-boe-se77c-19092701-17800202-smith.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-boe-se77c-19092701-17800202-smith.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/samsung-csot-se77c-19092706-17800602-smith.bin \
+    vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/st54j_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat \
+    vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat \
     vendor/motorola/smith/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
     vendor/motorola/smith/proprietary/vendor/lib/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlengine.so \
     vendor/motorola/smith/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
