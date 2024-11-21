@@ -7,12 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/smith/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
-    vendor/motorola/smith/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/motorola/smith/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    vendor/motorola/smith/proprietary/vendor/bin/hw/motorola.hardware.audio.adspd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.audio.adspd@1.0-service \
-    vendor/motorola/smith/proprietary/vendor/bin/init.qti.chg_policy.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.chg_policy.sh \
-    vendor/motorola/smith/proprietary/vendor/bin/vl53l1_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/vl53l1_daemon \
     vendor/motorola/smith/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/smith/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/smith/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -110,29 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/firmware/st54j_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat \
     vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat \
-    vendor/motorola/smith/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlengine.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfacialfeatures.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamximageformatutils.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxncs.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchilog.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinelog.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_wrapper.so \
-    vendor/motorola/smith/proprietary/vendor/lib/motorola.hardware.audio.adspd@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.audio.adspd@1.0-impl.so \
-    vendor/motorola/smith/proprietary/vendor/lib/motorola.hardware.audio.adspd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.audio.adspd@1.0.so \
-    vendor/motorola/smith/proprietary/vendor/lib/motorola.hardware.audio.adspd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.audio.adspd@1.0_vendor.so \
-    vendor/motorola/smith/proprietary/vendor/lib/libtinyalsa-moto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa-moto.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_cat24c64_s5kgm1sp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_cat24c64_s5kgm1sp_eeprom.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_s5k3t2sp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_s5k3t2sp_eeprom.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k3t2sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k3t2sp.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kgm1sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kgm1sp.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kgm1sp_cli.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kgm1sp_cli.so \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_mot_s5kgm1sp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_mot_s5kgm1sp.bin \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_mot_s5kgm1sp_cli.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_mot_s5kgm1sp_cli.bin \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_mot_sk53t2sp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_mot_sk53t2sp.bin \
@@ -140,108 +111,121 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.tuned.mot_s5k3t2sp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_s5k3t2sp.bin \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.tuned.mot_s5kgm1sp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_s5kgm1sp.bin \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/com.qti.tuned.mot_s5kgm1sp_cli.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_s5kgm1sp_cli.bin \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.mot.node.cli.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mot.node.cli.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.binning.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.customhwnode.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.depth.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummyrtb.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummysat.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.remosaic.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aecwrapper.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.af.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afd.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afwrapper.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.asd.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awb.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awbwrapper.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.haf.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.hafoverride.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlib.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.tracker.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.aec.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.vidhance.node.processing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.processing.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.stats.aec_dmbr.so \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/motorola/smith/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.frameselect.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.fusion.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.generic.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.gs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.gs.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.hdr.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.memcpy.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.mfsr.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.qcfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.qcfa.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.rawhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rawhdr.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.rt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rt.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.serializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.serializer.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.stub.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libadspd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadspd.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfacialfeatures.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgo.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxifestriping.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamximageformatutils.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxncs.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libmot_flash_aw3643.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_flash_aw3643.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_lux_standardization.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libmotgyroextractor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotgyroextractor.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvl53l1_daemon.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/motorola.hardware.audio.adspd@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.audio.adspd@1.0-impl.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/motorola.hardware.audio.adspd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.audio.adspd@1.0.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/sensors.moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.moto.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/sensors.tof.vl53l1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.tof.vl53l1.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
-    vendor/motorola/smith/proprietary/vendor/lib64/libtinyalsa-moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyalsa-moto.so
+    vendor/motorola/smith/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    libbitmlengine \
+    libcamera_nn_stub \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
+    libchilog \
+    libofflinelog \
+    libremosaic_wrapper \
+    libtinyalsa-moto \
+    motorola.hardware.audio.adspd@1.0-impl \
+    motorola.hardware.audio.adspd@1.0 \
+    sound_trigger.primary.default \
+    motorola.hardware.audio.adspd@1.0_vendor \
+    com.mot.eeprom.mot_cat24c64_s5kgm1sp_eeprom \
+    com.mot.eeprom.mot_gt24p64b_s5k3t2sp_eeprom \
+    com.qti.sensor.mot_s5k3t2sp \
+    com.qti.sensor.mot_s5kgm1sp \
+    com.qti.sensor.mot_s5kgm1sp_cli \
+    com.mot.node.cli \
+    com.qti.camx.chiiqutils \
+    com.qti.eisv2 \
+    com.qti.eisv3 \
+    com.qti.hvx.addconstant \
+    com.qti.hvx.binning \
+    com.qti.node.customhwnode \
+    com.qti.node.depth \
+    com.qti.node.dummyrtb \
+    com.qti.node.dummysat \
+    com.qti.node.eisv2 \
+    com.qti.node.eisv3 \
+    com.qti.node.fcv \
+    com.qti.node.gpu \
+    com.qti.node.memcpy \
+    com.qti.node.remosaic \
+    com.qti.node.stich \
+    com.qti.node.swregistration \
+    com.qti.stats.aec \
+    com.qti.stats.aecwrapper \
+    com.qti.stats.af \
+    com.qti.stats.afd \
+    com.qti.stats.afwrapper \
+    com.qti.stats.asd \
+    com.qti.stats.awb \
+    com.qti.stats.awbwrapper \
+    com.qti.stats.haf \
+    com.qti.stats.hafoverride \
+    com.qti.stats.pdlib \
+    com.qti.stats.pdlibsony \
+    com.qti.stats.pdlibwrapper \
+    com.qti.stats.tracker \
+    com.qtistatic.stats.aec \
+    com.qtistatic.stats.af \
+    com.qtistatic.stats.awb \
+    com.qtistatic.stats.pdlib \
+    com.vidhance.node.processing \
+    com.vidhance.stats.aec_dmbr \
+    com.fingerprints.extension@1.0 \
+    com.qti.feature2.anchorsync \
+    com.qti.feature2.demux \
+    com.qti.feature2.frameselect \
+    com.qti.feature2.fusion \
+    com.qti.feature2.generic \
+    com.qti.feature2.gs \
+    com.qti.feature2.hdr \
+    com.qti.feature2.memcpy \
+    com.qti.feature2.mfsr \
+    com.qti.feature2.qcfa \
+    com.qti.feature2.rawhdr \
+    com.qti.feature2.rt \
+    com.qti.feature2.serializer \
+    com.qti.feature2.stub \
+    com.qti.feature2.swmf \
+    camera.qcom \
+    com.qti.chi.override \
+    libadspd \
+    libcamerapostproc \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcom.qti.chinodeutils \
+    libipebpsstriping \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
+    libmot_afd \
+    libmot_flash_aw3643 \
+    libmot_lux_standardization \
+    libmotgyroextractor \
+    libsns_device_mode_stub \
+    libsns_fastRPC_util \
+    libsns_low_lat_stream_stub \
+    libsns_registry_skel \
+    libsnsdiaglog \
+    libswregistrationalgo \
+    libvidhance \
+    libvl53l1_daemon \
+    sensors.moto \
+    sensors.ssc \
+    sensors.tof.vl53l1 \
+    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     HotwordEnrollmentOKGoogleWM8280 \
     HotwordEnrollmentXGoogleWM8280 \
-    com.android.hotwordenrollment.common.util
+    com.android.hotwordenrollment.common.util \
+    charge_only_mode \
+    hvdcp_opti \
+    android.hardware.biometrics.fingerprint@2.1-service-fpc \
+    motorola.hardware.audio.adspd@1.0-service \
+    init.qti.chg_policy \
+    vl53l1_daemon
